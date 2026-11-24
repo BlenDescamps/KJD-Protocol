@@ -13,91 +13,23 @@ MonoBehaviour:
   m_Name: ColorCabinetConfig
   m_EditorClassIdentifier: Assembly-CSharp-Editor::KJD.Editor.ColorCabinet.ColorCabinetConfig
   _rules:
-  - m_keyword: CODE
-    m_textColor: {r: 1, g: 1, b: 1, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
+  - m_keyword: ART
+    m_textColor: {r: 0.990566, g: 0.06123302, b: 0.023362402, a: 1}
+    m_backgroundColor: {r: 0.047169805, g: 0.003782485, b: 0.003782485, a: 0}
     m_matchPrefixOnly: 0
-  - m_keyword: External
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Internal
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Material(s)
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Model(s)
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Sprite(s)
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Texture(s)
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Image(s)
-    m_textColor: {r: 0.047169805, g: 0.0042274813, b: 0.0042274813, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: CONTENT
-    m_textColor: {r: 1, g: 1, b: 1, a: 1}
-    m_backgroundColor: {r: 0.28235295, g: 0.9411765, b: 0.30588236, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: FRAMEWORK
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: GAME
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: FeatureName
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Runtime
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
-    m_matchPrefixOnly: 1
-  - m_keyword: Src
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
+  - m_keyword: AUDIO
+    m_textColor: {r: 0.99215686, g: 0.7658914, b: 0.023529433, a: 1}
+    m_backgroundColor: {r: 0.047169805, g: 0.003782485, b: 0.003782485, a: 0}
     m_matchPrefixOnly: 0
-  - m_keyword: DATABASE
-    m_textColor: {r: 1, g: 1, b: 1, a: 1}
-    m_backgroundColor: {r: 0.3019608, g: 0.54901963, b: 1, a: 1}
+  - m_keyword: DESIGN
+    m_textColor: {r: 0, g: 0.6509434, b: 0.014296282, a: 1}
+    m_backgroundColor: {r: 0.047169805, g: 0.003782485, b: 0.003782485, a: 0}
     m_matchPrefixOnly: 0
-  - m_keyword: Level(s)
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 0.3019608, g: 0.54901963, b: 1, a: 1}
-    m_matchPrefixOnly: 0
-  - m_keyword: Prefab(s)
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 0.3019608, g: 0.54901963, b: 1, a: 1}
-    m_matchPrefixOnly: 0
-  - m_keyword: Scene(s)
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 0.3019608, g: 0.54901963, b: 1, a: 1}
-    m_matchPrefixOnly: 0
-  - m_keyword: ScriptableObject(s)
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 0.3019608, g: 0.54901963, b: 1, a: 1}
-    m_matchPrefixOnly: 0
-  - m_keyword: RESSOURCE(S)
-    m_textColor: {r: 0.9811321, g: 0.9811321, b: 0.9811321, a: 1}
-    m_backgroundColor: {r: 0.8584906, g: 0.7990071, b: 0.10123708, a: 1}
+  - m_keyword: DEV
+    m_textColor: {r: 0.009344946, g: 0.044703037, b: 0.6603774, a: 1}
+    m_backgroundColor: {r: 0.047169805, g: 0.003782485, b: 0.003782485, a: 0}
     m_matchPrefixOnly: 0
   - m_keyword: _
-    m_textColor: {r: 1, g: 0.50056404, b: 0.023584902, a: 1}
+    m_textColor: {r: 0.9339623, g: 0.45590642, b: 0.004405493, a: 1}
     m_backgroundColor: {r: 0, g: 0, b: 0, a: 1}
     m_matchPrefixOnly: 1
-  - m_keyword: UIEffect
-    m_textColor: {r: 0, g: 0, b: 0, a: 1}
-    m_backgroundColor: {r: 1, g: 0.29803923, b: 0.5372549, a: 1}
-    m_matchPrefixOnly: 0
